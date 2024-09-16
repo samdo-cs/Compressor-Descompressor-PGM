@@ -1,6 +1,6 @@
 # Compressor e Descompressor de Imagens do tipo PGM em C
 
-Este projeto implementa em C, a compressão e descompressão de imagens no formato PGM (Portable GrayMap). O projeto inclui dois executáveis: `compressor` e `descompressor`. 
+Este projeto implementa em C, a compressão e descompressão de imagens no formato PGM (Portable GrayMap).
 
 ## Funcionamento Geral
 
@@ -10,19 +10,19 @@ O projeto é dividido em dois programas principais: **compressor** e **descompre
 
 * Reduz o tamanho das imagens PGM usando um algoritmo baseado em quadtree.
 * **Funcionamento**:
-  1. Lê a imagem PGM.
-  2. Constrói a quadtree da imagem.
-  3. Gera um bitstream a partir da quadtree.
-  4. Salva o bitstream em um arquivo.
+  * Lê a imagem PGM.
+  * Constrói a quadtree da imagem.
+  * Gera um bitstream a partir da quadtree.
+  * Salva o bitstream em um arquivo.
 
 ### Descompressor
 
 * Reconstrói a imagem PGM original a partir do arquivo comprimido.
 * **Funcionamento**:
-  1. Lê o bitstream do arquivo.
-  2. Reconstrói a quadtree a partir do bitstream.
-  3. Converte a quadtree de volta em uma imagem PGM.
-  4. Salva a imagem descomprimida.
+  * Lê o bitstream do arquivo.
+  * Reconstrói a quadtree a partir do bitstream.
+  * Converte a quadtree de volta em uma imagem PGM.
+  * Salva a imagem descomprimida.
 
 ### Quadtree
 
